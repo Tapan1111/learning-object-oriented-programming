@@ -18,6 +18,10 @@ public class BookRunner {
 		effictiveJava.setNoOfCopies(200);
 		cleanCode.setNoOfCopies(300);
 
+		System.out.println(artOfComputerProgramming.getNoOfCopies());
+		System.out.println(effictiveJava.getNoOfCopies());
+		System.out.println(cleanCode.getNoOfCopies());
+
 //		artOfComputerProgramming.increaseNoOfCopies(200);
 		artOfComputerProgramming.decreaseNoOfCopies(200);
 		effictiveJava.decreaseNoOfCopies(3000);
